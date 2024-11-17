@@ -3,18 +3,18 @@
     background-color: black;
     background-size: cover;
     background-position: center;
-    height: 170vh;
+    height: 160rem;
 }
 .bg-color {
       background-color: black;
       background-size: cover;
       background-position: center;
-      height: 180vh;
+      height: 30rem;
 }
 .custom-card {
     position: relative;
     width: 96%;
-    top: 10%;
+    top: 5%;
     left: 2%;
 }
 #top-card {
@@ -57,13 +57,13 @@ tr:nth-child(odd) {
 #accordionExample {
     position: relative;
     width: 96%;
-    top: 10%;
+    top: 6%;
     left: 2%;
 }
 #carouselExampleDark {
     position: relative;
     width: 50%;
-    top: 15%;
+    top: 8%;
     left: 25%;
 }
 
@@ -74,8 +74,8 @@ tr:nth-child(odd) {
 #map-card {
     position: relative;
     width: 50%;
-    height: 80vh;
-    top: 20%;
+    height: 35rem;
+    top: 12%;
     left: 25%;
 }
 
@@ -87,14 +87,14 @@ tr:nth-child(odd) {
     #carouselExampleDark {
         position: relative;
         width: 96%;
-        top: 15%;
+        top: 7%;
         left: 2%;
     }
     #map-card {
         position: relative;
         width: 96%;
-        height: 60vh;
-        top: 20%;
+        height: 30rem;
+        top: 10%;
         left: 2%;
     }
 
@@ -105,13 +105,13 @@ tr:nth-child(odd) {
         background-color: black;
         background-size: cover;
         background-position: center;
-        height: 170vh;
+        height: 160rem;
     }
     .bg-color {
           background-color: black;
           background-size: cover;
           background-position: center;
-          height: 240vh;
+          height: 60rem;
     }
 }
 
