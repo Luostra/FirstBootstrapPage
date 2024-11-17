@@ -1,0 +1,118 @@
+.bg-image {
+    background-image: url('/img/background.jpg');
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    height: 170vh;
+}
+.bg-color {
+      background-color: black;
+      background-size: cover;
+      background-position: center;
+      height: 180vh;
+}
+.custom-card {
+    position: relative;
+    width: 96%;
+    top: 10%;
+    left: 2%;
+}
+#top-card {
+    top: 10%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #6e6e6e;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+td:first-child, th:first-child {
+    width: 5%;
+}
+
+td:nth-child(2), th:nth-child(2) {
+    width: 70%;
+}
+/*
+tr:nth-child(even) {
+    background-color: #000000;
+}
+
+tr:nth-child(odd) {
+    background-color: #181818;
+}*/
+
+#accordionExample {
+    position: relative;
+    width: 96%;
+    top: 10%;
+    left: 2%;
+}
+#carouselExampleDark {
+    position: relative;
+    width: 50%;
+    top: 15%;
+    left: 25%;
+}
+
+.carousel-caption {
+    backdrop-filter: blur(8px); /* Установите значение размытия по вашему выбору */
+}
+
+#map-card {
+    position: relative;
+    width: 50%;
+    height: 80vh;
+    top: 20%;
+    left: 25%;
+}
+
+#copyright {
+    left: 140%;
+}
+
+@media  (max-width: 768px) {
+    #carouselExampleDark {
+        position: relative;
+        width: 96%;
+        top: 15%;
+        left: 2%;
+    }
+    #map-card {
+        position: relative;
+        width: 96%;
+        height: 60vh;
+        top: 20%;
+        left: 2%;
+    }
+
+}
+@media  (max-width: 576px) {
+    .bg-image {
+        background-image: url('/img/background.jpg');
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+        height: 170vh;
+    }
+    .bg-color {
+          background-color: black;
+          background-size: cover;
+          background-position: center;
+          height: 240vh;
+    }
+}
+
+
